@@ -1,0 +1,63 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.author{
+    display: flex;
+}
+
+.container{
+    background-color: white;
+    height: 510px;
+    width: 400px;
+    border-radius: 20px;  
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500, 800;
+    font-style: normal;
+    border: 2px  solid black;
+    box-shadow: 5px 5px black;
+    margin-top: 6%;
+}
+.potrait{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+h4{
+    margin-top: 0;
+}
+p{
+    font-size:  16px;
+    
+}
+
+.author > img{
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.author{
+    
+    column-gap: 10px;
+    font-weight: 600;
+}
+#title{
+    background-color: hsl(47, 88%, 63%);
+    display: inline;
+    border-radius: 5px;
+    padding: 8px;
+}
+.about > p{
+    color: gray;
+    font-style: bold;
+    text-align: start;  
+}
+.content{
+    padding: 30px;
+}
